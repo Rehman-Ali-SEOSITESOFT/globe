@@ -1,6 +1,5 @@
 import React, { useRef, useCallback } from 'react';
 import Globe from 'react-globe.gl';
-import MapImage from './image/abc.jpg';
 import Image1 from './image/earth-night-green.jpg';
 
 const GlobeWithLabels = () => {
@@ -22,7 +21,6 @@ const GlobeWithLabels = () => {
     <div style={{ width: '100%', height: '500px' }}>
       <Globe
         ref={globeRef}
-        globeTextureUrl={MapImage}
         backgroundColor="black"
         globeImageUrl={Image1}
         labelsData={labelsData}
