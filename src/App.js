@@ -21,9 +21,9 @@ const GlobeWithLabels = () => {
       <Globe
         ref={globeRef}
         globeTextureUrl={MapImage}
-        backgroundColor="red"
+        backgroundColor="black"
         globeImageUrl="https://unpkg.com/three-globe/example/img/earth-night.jpg"
-        backgroundImageUrl="https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png"
+        // backgroundImageUrl="https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png"
         labelsData={labelsData}
         labelText={"label"}
         labelSize={2.6}
