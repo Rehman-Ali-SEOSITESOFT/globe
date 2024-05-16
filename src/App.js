@@ -1,11 +1,8 @@
 import React, { useRef, useCallback } from 'react';
 import Globe from 'react-globe.gl';
 import MapImage from './image/abc.jpg';
-import Image1 from './image/image1.png';
-import Image2 from './image/image2.png';
-import Image3 from './image/image3.png';
-import Image4 from './image/image4.jpg';
-import Image5 from './image/image5.png';
+import Image1 from './image/earth-night-green.jpg';
+
 const GlobeWithLabels = () => {
   const globeRef = useRef(null);
 
@@ -27,14 +24,14 @@ const GlobeWithLabels = () => {
         ref={globeRef}
         globeTextureUrl={MapImage}
         backgroundColor="black"
-        globeImageUrl={"https://tvfgreenedge.cloud/earth-night-green2.jpg"}
-        // backgroundImageUrl="https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png"
+        globeImageUrl={Image1}
         labelsData={labelsData}
         labelText={"label"}
         labelSize={2.6}
         labelColor={useCallback(() => "#a3ffa2", [])}
         labelDotRadius={1}
         labelAltitude={0.05}
+        atmosphereColor="lightgreen" // Change this to the desired color for the ambient light
        
      />
     </div>
