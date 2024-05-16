@@ -1,6 +1,10 @@
 import React, { useRef, useCallback } from 'react';
 import Globe from 'react-globe.gl';
 import MapImage from './image/abc.jpg';
+import Image1 from './image/image1.png';
+import Image2 from './image/image2.png';
+import Image3 from './image/image3.png';
+import Image4 from './image/image4.jpg';
 const GlobeWithLabels = () => {
   const globeRef = useRef(null);
 
@@ -22,7 +26,7 @@ const GlobeWithLabels = () => {
         ref={globeRef}
         globeTextureUrl={MapImage}
         backgroundColor="black"
-        globeImageUrl="https://unpkg.com/three-globe/example/img/earth-night.jpg"
+        globeImageUrl={Image4}
         // backgroundImageUrl="https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png"
         labelsData={labelsData}
         labelText={"label"}
