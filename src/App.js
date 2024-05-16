@@ -5,6 +5,7 @@ import Image1 from './image/image1.png';
 import Image2 from './image/image2.png';
 import Image3 from './image/image3.png';
 import Image4 from './image/image4.jpg';
+import Image5 from './image/image5.png';
 const GlobeWithLabels = () => {
   const globeRef = useRef(null);
 
@@ -26,7 +27,7 @@ const GlobeWithLabels = () => {
         ref={globeRef}
         globeTextureUrl={MapImage}
         backgroundColor="black"
-        globeImageUrl={Image4}
+        globeImageUrl={"https://tvfgreenedge.cloud/earth-night-green2.jpg"}
         // backgroundImageUrl="https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png"
         labelsData={labelsData}
         labelText={"label"}
