@@ -7,7 +7,7 @@ const GlobeWithLabels = () => {
 
    // Data containing the labels
    const labelsData = [
- { lat: 30.3753, lng: 69.3451, label: "Pakistan" },
+
     { lat: 40.7128, lng: -74.006, label: "USA (New York)" },
     { lat: 51.5074, lng: -0.1278, label: "UK (London)" },
     { lat: 35.6895, lng: 139.6917, label: "Japan (Tokyo)" },
@@ -17,7 +17,6 @@ const GlobeWithLabels = () => {
     { lat: 28.6139, lng: 77.209, label: "India (Delhi)" },
     { lat: -23.5505, lng: -46.6333, label: "Brazil (São Paulo)" },
     { lat: 31.2304, lng: 121.4737, label: "China (Shanghai)" },
-    { lat: 52.52, lng: 13.405, label: "Germany (Berlin)" },
     { lat: 6.5244, lng: 3.3792, label: "Nigeria (Lagos)" },
     { lat: 19.4326, lng: -99.1332, label: "Mexico (Mexico City)" },
   ];
