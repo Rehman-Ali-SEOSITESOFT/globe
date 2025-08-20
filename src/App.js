@@ -83,7 +83,7 @@ const GlobeWithLabels = () => {
     if (globeRef.current) {
       // Auto-rotate the globe
       globeRef.current.controls().autoRotate = true;
-      globeRef.current.controls().autoRotateSpeed = 0.5; // Adjust speed (negative for opposite direction)
+      globeRef.current.controls().autoRotateSpeed = 1; // Adjust speed (negative for opposite direction)
     }
   }, []);
 
@@ -108,7 +108,7 @@ const GlobeWithLabels = () => {
   */
 
   return (
-    <div style={{ width: '100%', height: '500px' }}>
+    <div style={{ width: '100%', height: '1000px' }}>
       <Globe
         ref={globeRef}
         backgroundColor="black"
