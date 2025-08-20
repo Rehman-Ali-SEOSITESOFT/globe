@@ -35,7 +35,7 @@ const labelsData = [
         globeImageUrl={Image1}
         labelsData={labelsData}
         labelText={"label"}
-        labelSize={1.5}
+        labelSize={1}
         labelColor={useCallback(() => "#a3ffa2", [])}
         labelDotRadius={1}
         labelAltitude={0.05}
