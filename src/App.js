@@ -108,7 +108,7 @@ const GlobeWithLabels = () => {
   */
 
   return (
-    <div style={{ width: '100%', height: '1000px' }}>
+    <div style={{ width: '100%', height: '500px', backgroundColor: "#000" }}>
       <Globe
         ref={globeRef}
         backgroundColor="black"
