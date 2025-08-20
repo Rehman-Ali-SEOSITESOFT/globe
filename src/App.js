@@ -40,7 +40,8 @@ const labelsData = [
         labelDotRadius={1}
         labelAltitude={0.05}
         atmosphereColor="lightgreen" // Change this to the desired color for the ambient light
-       animateIn={true}
+       height={500}
+        width={500}
      />
     </div>
   );
